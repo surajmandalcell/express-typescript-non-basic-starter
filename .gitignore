@@ -1,0 +1,20 @@
+node_modules
+package-lock.json
+._*
+!/.gitignore
+.vercel
+
+# suraj
+.old
+build
+todo.md
+.DS_Store
+*/**/.DS_Store
+*/**/node_modules
+yarn-error.log
+
+src/logs/tee.txt
+src/logs/log.txt
+src/logs/morgan.txt
+
+src/config/*

@@ -27,22 +27,15 @@
     "yamljs": "^0.3.0"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"tsc --watch\" \"nodemon build/src/app.js\"",
     "start": "nodemon --exec ts-node src/app.ts",
     "start:prod": "./prepare.sh",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MadeByMaa/backend.git"
   },
   "keywords": [],
   "author": "Suraj Mandal",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MadeByMaa/backend/issues"
-  },
-  "homepage": "https://github.com/MadeByMaa/backend#readme",
   "devDependencies": {
     "@types/aws-sdk": "^2.7.0",
     "@types/cors": "^2.8.7",

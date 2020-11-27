@@ -2,7 +2,7 @@
 
 Removes the hastle of setting up typescript with express, not barebone since it contains aws firebase and mysql.
 
-Key Folder Structure
+Folder Structure
 
 ```
 - api
@@ -27,4 +27,5 @@ Most of it is self explanatory, if stuck just add a issue and I'll respond.
 ---
 
 Author: Suraj Mandal
+
 github.com/surajmandalcell
